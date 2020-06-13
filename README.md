@@ -20,3 +20,7 @@ Então, o servidor retornará a quantidade de votos que cada um teve e irá dest
 exibição você pode definir como achar melhor.
 
 Imagens da aplicação:
+<img src="/web/recursos/image/envio_dados.png">
+<br>
+<img src="/web/recursos/image/resultado.png">
+<br>
