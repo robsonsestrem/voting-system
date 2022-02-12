@@ -10,7 +10,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import org.jboss.weld.bean.builtin.ee.HttpServletRequestBean;
+import org.jboss.weld.module.web.HttpServletRequestBean;
 
 @WebServlet(urlPatterns = {"/candidato"})
 public class CandidatoServlet extends HttpServlet {
