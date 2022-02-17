@@ -10,14 +10,13 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import org.jboss.weld.module.web.HttpServletRequestBean;
 
 @WebServlet(urlPatterns = {"/candidato"})
 public class CandidatoServlet extends HttpServlet {
 
     List<Candidato> candidatos = new ArrayList<>();
 
-    protected void doGet(HttpServletRequestBean request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("Chamou pelo método GET.");
     }
 
