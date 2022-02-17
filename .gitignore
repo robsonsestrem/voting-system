@@ -10,11 +10,17 @@
 ### Java ###
 # Compiled class file
 *.class
+
+# NetBeans specific #
 dist/
 bin/
 build/
 temp/
 target/
+nbbuild/
+nbdist/
+nbproject/private/
+
 
 # Log file
 *.log
